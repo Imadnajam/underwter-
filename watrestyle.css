@@ -1,0 +1,196 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+   background-color: white ;
+    color: rgb(0, 0, 0);
+    height:auto;
+}
+nav{
+    
+   
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url("pn.jpg");
+    background-size: cover;
+    background-position:center;
+    
+    
+}
+.svg0{
+    width: 50px ;
+    height: 50px;
+    animation: fly 20s ease-in-out infinite;
+}
+.svg2{
+    width: 50px ;
+    height: 50px;
+    animation: fly 14s ease-in infinite;
+}
+.svg3{
+    width: 50px ;
+    height: 50px;
+    animation: fly 8s ease-in infinite;
+}
+.svg4{
+    width: 50px ;
+    height: 50px;
+    animation: fly 13s ease-in infinite;
+}
+.svg5{
+    width: 50px ;
+    height: 50px;
+    animation: fly 9s ease-in infinite;
+}
+@keyframes fly {
+    0%{
+       
+        transform: translateX(200vh);
+        opacity: 0.1;
+    }
+    40%{
+        
+        opacity: 1;
+    }
+    80%{
+        
+        opacity: 1.2;
+        
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 0.2;
+    }
+}
+nav h3{
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+#h01 {
+    
+    position: absolute;
+    left: 180px;
+    top: 100%;
+}
+.d0{
+    width: 300px;
+    height: 300px;
+    background-image: url("pl.jpg");
+    background-size: cover;
+    background-position:center;
+    margin: 2%;
+}
+
+.container1{
+    
+    
+    display: flex;
+    gap: 50px;
+    font-size: x-large;
+    position: absolute;
+    left: 300px;
+    top: 550px;
+}
+.items{
+    width: 100px;
+    height: 100px;
+    background-color:rgba(135, 207, 235, 0.164);
+    text-align:center;
+
+}
+#d1{
+    position: absolute;
+    left: 0px;
+    top: 250px;
+}
+
+@keyframes mask {
+    0%{
+    stroke-dashoffset: 0px;
+    }
+    50%{
+        stroke-dashoffset: 400px;
+    }
+    80%{
+        stroke-dashoffset: 800px;
+        
+    }
+    100%{
+        stroke-dashoffset: 1000px;
+       
+        
+    }
+}
+
+
+nav ul {
+    
+    display: flex;
+    
+    gap: 40px;
+}
+nav ul span {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    right:  20px;
+    margin-top: 2%;
+}
+a{
+    color: rgb(0, 0, 0);
+}
+nav ul li{
+    margin-right: 2%;
+    margin-top: 2%;
+    box-shadow: 10px 5px 5px gainsboro;
+    
+    
+}
+nav ul li :hover {
+    text-decoration: underline rgb(0, 132, 255) 3px;
+    color:rgb(0, 132, 255);
+    
+}
+
+nav h1{
+    margin: 60px;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+      
+}
+nav h1::after{
+    content: "";
+    width: 200px;
+    height: 3px;
+    background-color: rgb(0, 132, 255);
+    display:list-item;
+    
+}
+section{
+    margin-top: 50%;
+    background-color: white;
+    width: 90%;
+    height: 110vh;
+    background-image: url("ph.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#d2{
+    width: 100%;
+    height: 20rem;
+    margin-top: 10%;
+    
+    stroke-width: 10;
+    stroke:rgb(0, 132, 255);
+}
+.svg1{
+    margin-top: 5%;
+    stroke-dasharray: 500px;
+  stroke-dashoffset: 0px;
+    animation: mask linear 8s infinite ;
+}
